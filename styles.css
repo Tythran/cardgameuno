@@ -1,0 +1,85 @@
+#alert{
+
+    position: absolute;
+    transform: translateX(2rem) translateY(22rem);
+    background: rgba(139, 0, 0, 0.7);
+    width: 70rem;
+    height: 4rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border-radius: 10rem;
+
+}
+.discard{
+
+    position: absolute;
+    transform: translateY(-16.5rem);
+
+}
+.card-panel{
+
+    width: 10rem;
+    height: 15rem;
+
+}
+
+.circle{
+
+    width: 7rem;
+    height: 12rem;
+    transform: rotate(25deg);
+
+}
+#deck{
+
+    font-size: 5rem;
+    transform: rotate(-25deg) translateY(3.25rem) translateX(-1rem);
+    position: absolute;
+
+}
+.inner_text{
+
+    font-size: 5rem;
+    font-weight: bolder;
+    transform: rotate(-25deg) translateY(3.25rem) translateX(.5rem);
+    position: absolute;
+
+}
+.upper_left{
+
+    position: absolute;
+    transform: translateX(-1rem) translateY(-1.5rem);
+    font-size: 3rem;
+    color: white;
+
+}
+.upper{
+
+    position: absolute;
+    transform: translateX(2rem) translateY(1rem);
+    max-width: 90rem;
+
+}
+.middle{
+
+    position: absolute;
+    transform: translateX(2rem) translateY(18rem);
+    height: 16rem;
+    width: 90rem;
+
+}
+.lower{
+
+    position: absolute;
+    transform: translateX(2rem) translateY(34rem);
+    height: 16rem;
+    max-width: 90rem;
+
+}
+
+.small:hover{
+
+    transform: translateY(-1.5rem);
+
+}
