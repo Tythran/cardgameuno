@@ -19,7 +19,7 @@ let clickedValue // Value of Card that was Clicked
 // Checks if anyone has won and does the appropriate action
 function checkWin(){
 
-    if (player_Hand.length <= 1){
+    if (player_Hand.length <= 0){
         alertDiv.classList.remove("hide")
         alert.innerHTML = "YOU WIN"
     }
